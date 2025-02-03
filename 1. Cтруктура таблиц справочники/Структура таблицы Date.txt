@@ -1,0 +1,11 @@
+CREATE TABLE [dbo].[Date] (
+    [DateID]       INT           IDENTITY (1, 1) NOT NULL,
+    [FullDateTime] DATETIME      NOT NULL,
+    [FullDate]     DATE          NOT NULL,
+    [Day]          INT           NOT NULL,
+    [Month]        INT           NOT NULL,
+    [Year]         INT           NOT NULL,
+    [WeekDay]      NVARCHAR (20) NOT NULL,
+    PRIMARY KEY CLUSTERED ([DateID] ASC)
+);
+
